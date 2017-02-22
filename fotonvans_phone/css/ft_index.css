@@ -1,0 +1,218 @@
+.main_part {
+  width: 100%;
+}
+img{
+  width: 100%;
+}
+.swiper-container {
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.swiper-slide  a {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+}
+.swiper-slide  a img {
+  width: 100%;
+  height: auto;
+}
+.swiper-pagination-bullet {
+  width: 0.12rem;
+  height: 2px;
+  background: #fff;
+  border-radius: 0;
+  opacity: 1;
+}
+.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
+  margin: 0 2px;
+}
+.swiper-pagination-bullet-active {
+  opacity: 1;
+  background: #00c9ff;
+}
+
+/*内容*/
+.car_series {
+  width: 100%;
+}
+.ft_Entitle {
+    font-size: 0.28rem;
+    color: #0066b3;
+    font-family: "DIN";
+    text-align: center;
+    letter-spacing: -1px;
+    padding-top: 0.25rem;
+    padding-bottom: 0.1rem;
+}
+.ft_Cntitle {
+    font-size: 0.24rem;
+    color: #000000;
+    font-weight: normal;
+    font-family: "微软雅黑";
+    margin-left: 0.05rem;
+    position: relative;
+    top: -0.02rem;
+}
+p.car_name {
+  width: 100%;
+  height: 0.45rem;
+  text-align: center;
+  line-height: 0.45rem;
+  background-color: #ededed;
+  font-size: 0.18rem;
+  color: #0066b3;
+}
+.detail_name {
+  width: 100%;
+}
+.detail_name a {
+  display: inline-block;
+  width: 33.33%;
+  height: 0.4rem;
+  font-size: 0.16rem;
+  text-align: center;
+  line-height: 0.4rem;
+  float: left;
+  color: #404040;
+}
+.car_type a {
+  position: relative;
+}
+.car_type a > div {
+  width: 100%;
+  height: 0.9rem;
+  overflow: hidden;
+}
+
+
+/* 经销商 服务商 预约试驾 促销活动 */
+.action_link {
+  width: 100%;
+  background-color: #0066b3;
+  position: relative;
+}
+.action_line{
+  position: absolute;
+  left: 0;
+  top: 1rem;
+  width: 100%;
+  height: 1px;
+  background-color: #80b3d9;
+}
+.action_link a {
+  display: inline-block;
+  width: 33.33%;
+  height: 1.0rem;
+  float: left;
+  color: #fff;
+  padding: 0.15rem;
+  padding-bottom: 0;
+  text-align: center;
+  position: relative;
+}
+.action_link a:after{
+  content: '';
+  position: absolute;
+  top: 0.24rem;
+  right: 0;
+  width: 1px;
+  height: 0.53rem;
+  background-color: #80b3d9;
+}
+.action_link a:nth-child(3n):after{
+  background: none;
+}
+.action_link span {
+  display: inline-block;
+  width: 0.3rem;
+  height: 0.3rem;
+  background-image: url("../images/index/distributor_serach_icon.png");
+  background-size: 100% 100%;
+}
+.action_link  span.repire {
+  width: 0.4rem;
+}
+.action_link > div {
+  width: 100%;
+  border-bottom: 1px solid #80b3d9;
+}
+span.test_dirver {
+  background-image: url("../images/index/test_driver.png");
+}
+span.promotion {
+  background-image: url("../images/index/promotion_icon.png");
+}
+span.repire {
+  background-image: url("../images/index/repire_maintain_icon.png");
+}
+span.lower_price {
+  background-image: url("../images/index/repair.png");
+}
+span.line_server {
+  background-image: url("../images/index/line_serve_icon.png");
+}
+.action_link p {
+  height: 0.4rem;
+  line-height: 0.4rem;
+}
+p.double_line {
+  line-height: 0.2rem;
+}
+.xiana{border-left:1px solid #c4c4c4;border-right: 1px solid #c4c4c4; }
+
+/*车类*/
+.carclass{
+	
+}
+.carclass li{
+	margin-top: 1px;
+  position: relative;
+}
+.carclass li a{
+  display: block;
+  height: 0.45rem;
+  line-height: 0.45rem;
+  font-size: 0.18rem;
+  background-color: #dcdcdc;
+  color: #000;
+  padding-left: 0.35rem;
+}
+.carclass li a:after{
+  content: '>';
+  display: inline;
+  float: right;
+  padding-right: 0.35rem;
+  font-size: 0.3rem;
+}
+.carclass li.active a{
+  background-color: #0066b3;
+  color: #fff;
+}
+.carclass li.active a:after{
+  content: '∨';
+}
+.carclass li div{
+  display: none;
+}
+

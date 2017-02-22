@@ -1,0 +1,72 @@
+/*!
+ laypage默认样式
+*/
+
+.laypage_main{font-size:0; clear:both; color:#666;}
+.laypage_main *{display:inline-block; vertical-align: top; font-size:12px;}
+.laypage_main a{height:26px; line-height:26px; text-decoration:none; color:#666;}
+.laypage_main a, .laypage_main span{margin:5px 0px 0px 6px;}
+.laypage_main span{height:26px; line-height:26px;}
+.laypage_main input, .laypage_main button{ border:1px solid #ccc; background-color:#fff;}
+.laypage_main input{width:40px; height:26px; line-height:26px; margin:0 5px; padding:0 5px;}
+.laypage_main button{height:28px; line-height:28px; margin-left:5px; padding:0 10px; color:#666;}
+
+/* 默认皮肤 */
+.laypageskin_default a{border:1px solid #ccc; background-color:#fff;}
+.laypageskin_default span{height:28px; line-height:28px; color:#999; }
+.laypageskin_default .laypage_curr{font-weight:700; color:#666;}
+
+/* 墨绿 */
+.laypageskin_molv a, .laypageskin_molv span{
+	display:block;
+	width:33px;
+	height:33px;
+	border:1px solid #d5d5d5;
+	float:left;
+	border-radius:2px;
+	background-color:#ffffff;
+	line-height:33px;
+	text-align:center;
+}
+.laypageskin_molv span{
+	border:none;
+	background:none;
+}
+.laypageskin_molv .laypage_next{
+	width:98px;
+	height:33px;
+	text-align:center;
+	line-height:33px;
+}
+.laypageskin_molv .laypage_prev{
+	width:98px;
+	height:33px;
+	text-align:center;
+	line-height:33px;
+}
+.laypageskin_molv .laypage_curr{background-color:#51c332; color:#fff;border: 1px solid #51c332;}
+.laypageskin_molv input{height:24px; line-height:24px;}
+.laypageskin_molv button{height:26px; line-height:26px;}
+
+/* 雅黑 */
+.laypageskin_yahei{color:#333}
+.laypageskin_yahei a, .laypageskin_yahei span{/*padding:0 13px;*/ border-radius:2px; color:#333}
+.laypageskin_yahei .laypage_curr{background-color:#333; color:#fff;}
+
+/* 一般用于信息流加载 */
+.laypageskin_flow{text-align:center;}
+.laypageskin_flow .page_nomore{color:#999}
+
+/*分页部分开始*/
+.main_page{
+    width: 100%;
+    height: 40px;
+    /* background-color: #f0f2f6; */
+    margin: 0.2rem auto 0px;
+}
+.main_page .page{
+	/*float:right;*/
+	/*margin-top:33px;
+	line-height:65px;*/
+}
+/*分页部分结束*/

@@ -1,0 +1,176 @@
+<!--<#include "../../cfg.ftl" parse=true encoding="utf-8">-->
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"   content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <meta name="apple-touch-fullscreen" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="format-detection" content="telephone=no">
+        <link rel="stylesheet" href="css/common.css">
+        <link rel="stylesheet" href="css/purchase_testDrive.css">
+        <script src="lib/jquery-1.11.2.min.js"></script>
+        <script src="http://api.map.baidu.com/api?v=2.0&ak=qucwKSrbi7Ghmy1WKZe3tl18vhsBmXGn" type="text/javascript" charset="utf-8"></script>
+        <script src="lib/simpScroller-min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="js/common.js" type="text/javascript" charset="utf-8"></script>
+        <script src="js/purchase_testDrive.js" type="text/javascript" charset="utf-8"></script>
+        <title>福田商务汽车-预约试驾</title>
+        <script>
+            $(function(){
+                new foton.Common();
+                new foton.TestDriver();
+            })
+        </script>
+    </head>
+    <body>
+    <!--header-->
+    <div class="hearder">
+        <#include "../mheader.ftl" parse=true encoding="utf-8">
+    </div>
+    <!--header-->
+
+    <!--content-->
+    <h1 class="ft_Entitle">RESERVE A TEST DRIVER</h1>
+    <h2 class="ft_Cntitle">预约试驾</h2>
+
+    <div class="main_part">
+        <p class="need_notice"><span class="star">*</span> 为必填选项。您的信息，我们将会完全保密，请您放心填写</p>
+
+        <div class="message_up">
+            <form id="getForm">
+
+                <div class="item clearfix">
+                    <p class="label">请选择品牌及车系：</p>
+                    <div class="dropItem car_brand">
+                        <p class="dropDefault clearfix">
+                            <select name="brandId">
+                                <option selected  value="-1">请选择品牌</option>
+                            </select>
+
+                        </p>
+                        <span class="star">*</span>
+                    </div>
+                    <div class="dropItem car_type">
+                        <p class="dropDefault clearfix">
+                            <select name="seriesId">
+                                <option selected   value ="-1">请选择车系</option>
+                            </select>
+                        </p>
+                        <span class="star">*</span>
+                    </div>
+                </div>
+                <div class="item clearfix">
+                    <p class="label">您所在位置：</p>
+                    <div class="dropItem provice">
+                        <p class="dropDefault clearfix">
+                            <select id="province" name="provinceId">
+                                <option selected  value ="-1">省</option>
+                            </select>
+                        </p>
+                        <span class="star">*</span>
+                    </div>
+                    <div class="dropItem city">
+                        <p class="dropDefault clearfix">
+                            <select id="city" name ="cityId">
+                                <option selected  value ="-1">市</option>
+                            </select>
+                        </p>
+                        <span class="star">*</span>
+                    </div>
+                    <div class="dropItem country">
+                        <p class="dropDefault clearfix">
+                           <select name="areaId">
+                              <option selected  value ="-1">区/县</option>
+                           </select>
+                        </p>
+                    </div>
+                    <div class="dropItem distributor">
+                        <p class="dropDefault clearfix">
+                            <input type="hidden" name="dealerId" value="">
+                            <span class="dealer_span">请选择经销商</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="item clearfix">
+                    <p class="label">个人信息：</p>
+                    <div class="dropItem name">
+                        <input type="text" autocomplete="off" name="name"  placeholder="姓名">
+                        <span class="star">*</span>
+                    </div>
+                    <div class="dropItem phone">
+                        <input type="number" autocomplete="off" name="tel"  placeholder="手机号">
+                        <span class="star">*</span>
+                    </div>
+                </div>
+                <div class="item need  clearfix">
+                    <p class="label">请描述您的需求：</p>
+                    <div class="dropItem your_need">
+                        <textarea class="secondInput" autocomplete="off" name="remark"></textarea>
+                        <span class="star">*</span>
+                    </div>
+                </div>
+
+                <div class="item test_time  clearfix">
+                    <p class="label">计划试驾时间：</p>
+                    <div class="container">
+                        <div class="row">
+                            <label class="col-xs-6 " for="weekend">
+                                <input type="radio" id="weekend" name="testDriveTime" autocomplete="off" value="1">周末
+                                <img src="${mStaticPath}/images/purchase/ball_full.png" class="img_hide" alt="" style="display:none;">
+                            </label>
+                            <label class="col-xs-6 " for="wordend">
+                                <input type="radio" id="wordend" name="testDriveTime" autocomplete="off" value="2">周一至周五
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="item choice_time  clearfix">
+                    <p class="label">计划购车时间：</p>
+                    <div class="container">
+                        <div class="row">
+                            <label class="col-xs-6 " for="oneMonth">
+                                <input type="radio" id="oneMonth" name="buyTime" autocomplete="off" value="1">1周~1个月
+                            </label>
+                            <label class="col-xs-6 " for="tMonth">
+                                <input type="radio" id="tMonth" name="buyTime" autocomplete="off" value="2">2个月~3个月
+                            </label>
+                            <label class="col-xs-6 " for="thMonth">
+                                <input type="radio" id="thMonth" name="buyTime" autocomplete="off" value="3">3个月~6个月
+                            </label>
+                            <label class="col-xs-6 " for="sMonth">
+                                <input type="radio" id="sMonth" name="buyTime" autocomplete="off" value="4">6个月以上
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <input type="hidden" name="type" value="预约试驾">
+            </form>
+        </div>
+
+        <div class="button_up">
+            <a class="sign_up">&nbsp;提交 &gt;</a>
+            <a href="javascript:;" class="go_back" onclick="history.go(-1)">返回</a>
+        </div>
+    </div>
+    <div id="maps" style="width:0;height:0;display: none;"></div>
+    <!---->
+
+    <div class="areaId_container">
+        <div class="areaIdmarkBg"></div>
+        <div class="areaId_content">
+            <p class="areaId_title">请选择经销商</p>
+            <span class="areaId_close"></span>
+            <div class="areaId_details">
+                <ul class="drop_list">
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--footer-->
+    <div class="footer">
+        <#include "../mfooter.ftl" parse=true encoding="utf-8">
+    </div>
+    <!--footer-->
+    </body>
+    </html>

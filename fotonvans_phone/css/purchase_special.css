@@ -1,0 +1,105 @@
+a:link{
+    color: #404040;
+}
+.ft_Entitle {
+    font-size: 0.28rem;
+    color: #0066b3;
+    font-family: "DIN";
+    text-align: center;
+    margin-top: 0.28rem;
+    letter-spacing: -1px;
+}
+.ft_Cntitle {
+    text-align: center;
+    font-size: 0.24rem;
+    color: #000000;
+    font-weight: normal;
+}
+.ft_Entitle1 {
+    font-size: 0.28rem;
+    color: #0066b3;
+    font-family: "DIN";
+    text-align: center;
+    letter-spacing: -1px;
+    padding-top: 0.25rem;
+    margin-bottom: -0.1rem;
+}
+.ft_Cntitle1 {
+    font-size: 0.24rem;
+    color: #000000;
+    font-weight: normal;
+    font-family: "微软雅黑";
+    margin-left: 0.05rem;
+    position: relative;
+    top: -0.02rem;
+}
+.listcon{
+    margin-top: 0.35rem;
+}
+.stylebox{
+    text-align: center;
+    margin-bottom: 0.3rem;
+}
+.optionbox{
+    display: inline-block;
+}
+.optionbox li{
+    float: left;
+    font-size: 0.14rem;
+    color: #010101;
+    height: 0.3rem;
+    line-height: 0.3rem;
+    min-width: 1rem;
+}
+.optionbox li.pitchBG{
+    color: #FFFFFF;
+    background: url("../images/activity/blue_bg.png") no-repeat;
+    background-size: 100%;
+}
+.hdbox{
+    display: none;
+}
+.lbbox li{
+    border-bottom: 1px solid #959595;
+    padding-bottom: 0.15rem;
+    margin-bottom: 0.15rem;
+}
+.lbpic{
+    width: 1.4rem;
+    height: 0.985rem;
+    float: left;
+    margin-right: 0.14rem;
+}
+.lbcon{
+    float: left;
+    width: 1.85rem;
+}
+.lbcon_title{
+    font-size: 0.15rem;
+    height: 0.42rem;
+    line-height: 0.22rem;
+    overflow: hidden;
+}
+.lbcon_con{
+    font-size: 0.12rem;
+    margin: 0.05rem 0;
+    overflow: hidden;
+    height: 0.34rem;
+    line-height: 1.4;
+}
+.lbcon_time{
+    text-align: right;
+    font-size: 0.12rem;
+    color: #868686;
+}
+.loadmore{
+    width: 100%;
+    height: 0.4rem;
+    color: #fff;
+    background-color: #0066b3;
+    text-align: center;
+    line-height: 0.4rem;
+    font-size: 0.14rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0.3rem;
+}

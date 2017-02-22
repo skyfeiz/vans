@@ -1,0 +1,228 @@
+.ft_Entitle {
+    font-size: 0.28rem;
+    color: #0066b3;
+    font-family: "DIN";
+    text-align: center;
+    margin-top: 0.28rem;
+    letter-spacing: -1px;
+}
+.ft_Cntitle {
+    text-align: center;
+    font-size: 0.24rem;
+    color: #000000;
+    font-weight: normal;
+}
+.main_part {
+  padding: 0.2rem 0.15rem 0.3rem;
+}
+
+p.need_notice {
+    font-size: 0.12rem;
+    color: #959595;
+    margin-bottom: 0.1rem;
+    color: #0066b3;
+    margin-top: 0.2rem;
+}
+span.color_gen {
+    color: #959595;
+}
+span.star {
+    color: #0066b3;
+    display: inline-block;
+}
+.message_up span.star {
+    float: left;
+    height: 0.4rem;
+    line-height: 0.4rem;
+    width: 0.1rem;
+    text-align: center;
+    color: #0066b3;
+}
+/*下拉*/
+.message_up .item {
+
+}
+.dropItem {
+    float: left;
+    position: relative;
+    color: #959595;
+    margin-bottom: 0.1rem;
+    width: 100%;
+}
+.item > div select {
+    line-height: 0.4rem;
+    font-size: 0.14rem;
+    color: #959595;
+}
+.dropDefault {
+    display: inline-block;
+    float: left;
+    width: 96%;
+}
+.dropDefault select {
+    overflow: hidden;
+    display: inline-block;
+    width: 100%;
+    height: 0.4rem;
+    padding: 0px 10px;
+    border: 1px solid #959595;
+    float: left;
+    text-align: left;
+    color: #959595;
+    cursor: pointer;
+    background: url("../images/service/down_arrow.jpg") no-repeat top right;
+    background-size: contain;
+
+}
+.dropOptions {
+    display: none;
+}
+p.label {
+    font-size: 0.14rem;
+    color: #0066b3;
+    line-height: 2;
+}
+.country , .distributor {
+    width: 100%;
+}
+
+.country .button , .distributor .button {
+
+}
+.dropItem input {
+    height: 0.4rem;
+    width: 96%;
+    float: left;
+    border: 1px solid #959595;
+    padding-left: 0.18rem;
+    color: #959595;
+    font-size: 0.14rem;
+}
+.landline span {
+    float: left;
+    margin: 0 5px;
+    display: inline-block;
+    height: 0.4rem;
+    line-height: 0.4rem;
+}
+.landline input {
+    float: left;
+}
+input.part_one {
+    width: 0.8rem;
+}
+input.part_t {
+    width: 2.35rem;
+}
+.your_need {
+    width: 100%;
+}
+.your_need textarea {
+    border: 1px solid #959595;
+    width: 96%;
+    height: 1.0rem;
+    padding: 0.1rem;
+    color: #959595;
+    font-size: 0.14rem;
+    float: left;
+}
+
+.message_up .city , .message_up .car_type {
+    float: right;
+}
+.choice_time label , .test_time label {
+    background: url("../images/purchase/ball_empty.png") no-repeat 0px 0px;
+    background-size: contain;
+    line-height: 0.14rem;
+    display: inline-block;
+    padding-left: 0.2rem;
+    margin-right: 0;
+    color: #959595;
+    cursor: pointer;
+    font-size: 0.14rem;
+    cursor: hand;
+    margin: 0.05rem 0;
+}
+.choice_time label input, .test_time label input {
+    display: none;
+}
+.choice_time .click_bg,.test_time .click_bg  {
+    background: url("../images/purchase/ball_full.png") no-repeat 0px 0px;
+    background-size: contain;
+
+}
+
+
+
+
+select {
+  border: solid 1px #000;
+  background-color: #fff;
+  appearance:none;
+  -moz-appearance:none;
+  -webkit-appearance:none;
+  padding-right: 14px;
+  outline: none;
+}
+
+.button_up {
+    margin-top: 0.3rem;
+    background: url("../images/purchase/right_arrow.png") no-repeat;
+}
+.button_up a {
+    position: relative;
+    display: block;
+    width: 1.0rem;
+    height: 0.4rem;
+    background: url("../images/purchase/right_arrow.png") no-repeat;
+    background-position: 0.7rem center;
+    background-size: 0.1rem 0.4rem;
+    background-color: #0066b3;
+    text-align: center;
+    line-height: 0.4rem;
+    font-size: 0.14rem;
+    color: #fff;
+    margin: 0 auto;
+}
+
+p.warnning {
+    float: left;
+    padding-top: 0.05rem;
+    color: red;
+}
+
+.up_load {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url("../images/purchase/loading-1.gif") no-repeat;
+    background-size: 0.2rem 0.2rem;
+    background-position: 0.1rem center;
+    z-index: 20;
+}
+.button_up .click_status {
+    background-color: rgba(0,0,0,0.5);
+    color: #f0f0f0;
+}
+
+.layui-layer-msg {
+    width: 150px;
+    height: 40px;
+    position: fixed;
+    top: 40%;
+    right: 50%;
+    right: 50%;
+    margin-right: -75px;
+    border-radius: 4px;
+    background-color: rgba(0,0,0,0.6);
+    z-index: 100;
+}
+.layui-layer-msg > div {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height:40px;
+    color: #fff;
+}

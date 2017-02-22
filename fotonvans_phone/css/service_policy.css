@@ -1,0 +1,69 @@
+.ft_Entitle{
+	font-size: 0.28rem;
+	color: #0066b3;
+	font-family: "DIN";
+	text-align: center;
+	margin-top: 0.28rem;
+	letter-spacing: -1px;
+}
+.ft_Cntitle{
+	text-align: center;
+	font-size: 0.24rem;
+	color: #000000;
+	font-weight: normal;
+	position: relative;
+	top: -0.02rem;
+	font-family: "微软雅黑";
+	margin-left: 0.1rem;
+}
+table{
+	text-align: center;
+	/*border: 0.01rem solid #a0a0a0;*/
+}
+.table_one{
+	margin-bottom: 0.35rem;
+	margin-top: 0.2rem;
+}
+.table_two{
+	margin-bottom: 0.3rem;
+}
+table td{
+	font-size: 0.12rem;
+	color: #404040;
+	border: 0.01rem solid #a0a0a0;
+}
+th{
+	font-weight: normal;
+	border: 0.01rem solid #80e4ff;
+}
+.table_title{
+	background-color: #00c9ff;
+	color: #FFFFFF;
+	font-size: 0.14rem;
+	font-weight: normal;
+}
+table tr.fontS_12 td{
+	font-size: 0.12rem;
+	color: #FFFFFF;
+	border-color: #80e4ff;
+}
+.tb_chexing{
+	width: 0.54rem;
+}
+.tb_leixing{
+	width: 1.225rem;
+	padding: 0.05rem 0;
+}
+.tb_con{
+	width: 0.75rem;
+	padding: 0.15rem 0.05rem;
+	text-align: justify;
+}
+.tb_bz{
+	text-align: left;
+	padding: 0.12rem 0.05rem;
+}
+.textJ{
+	text-align: justify;
+	padding: 0.13rem 0.05rem;
+}

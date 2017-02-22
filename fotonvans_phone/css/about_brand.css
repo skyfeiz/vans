@@ -1,0 +1,185 @@
+.ft_Entitle{
+	font-size: 0.28rem;
+	color: #0066b3;
+	font-family: "DIN";
+	text-align: center;
+	margin-top: 0.28rem;
+	letter-spacing: -1px;
+}
+.ft_Cntitle{
+	text-align: center;
+	font-size: 0.24rem;
+	color: #000000;
+	font-weight: normal;
+	position: relative;
+	top: -0.02rem;
+	font-family: "微软雅黑";
+	margin-left: 0.1rem;
+}
+.bannerbg{
+	width: 100%;
+	height: auto;
+	margin-top: 0.3rem;
+}
+.containerul{
+	margin-bottom: 0.3rem;
+}
+/*最新添加*/
+img{
+	width: 100%;
+}
+.carStyle{
+	height: 0.58rem;
+	border-top: 0.01rem solid #c9c9c9;
+	border-bottom: 0.01rem solid #c9c9c9;
+	margin-top: 0.2rem;
+	margin-bottom: 0.18rem;
+	text-align: center;
+}
+.carStyle li{
+	display: inline-block;
+	height: 100%;
+	width: 30%;
+	line-height: 0.58rem;
+	text-align: center;
+	font-size: 0.16rem;
+}
+.Bg_blue{
+	background-color: #00c9ff;
+	color: #fff;
+}
+.containerul > li{
+	display: none;
+}
+.containerul > li.active{
+	display: block;
+}
+.bd_title{
+	font-weight: 700;
+	font-size: 0.16rem;
+	line-height: 2.5;
+}
+.w690{
+	width: 3.45rem;
+	margin: 0 auto;
+}
+.pt016r{
+	padding-top: 0.16rem;
+}
+.bd_con{
+	line-height: 1.5625;
+}
+.historybtn{
+	display:-moz-box; /* Firefox */
+	display:-webkit-box; /* Safari and Chrome */
+	display:box;
+	padding-bottom: 0.15rem;
+}
+.historybtn li{
+	-moz-box-flex:1.0; /* Firefox */
+	-webkit-box-flex:1.0; /* Safari and Chrome */
+	box-flex:1.0;
+	height: 0.4rem;
+	line-height: 0.4rem;
+	text-align: center;
+	font-size: 0.16rem;
+}
+.historybtn li.active{
+	background: url(../images/about/blue_bg.png) no-repeat;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	color: #fff;
+}
+.hisul > li{
+	display: none;
+}
+.hisul > li.present{
+	display: block;
+}
+.loadmore{
+	width: 100%;
+	height: 0.4rem;
+	line-height: 0.4rem;
+	text-align: center;
+	background-color: #0066b3;
+	color: #fff;
+	font-size: 0.14rem;
+}
+.his_step{
+	height: 1.56rem;
+}
+.z_axis{
+	width: 0.14rem;
+	height: 100%;
+	background: url(../images/about/axis_0.png) no-repeat;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+}
+.his_step:first-child .z_axis{
+	background-image: url(../images/about/axis_1.png);
+}
+.his_step:last-child .axis_cont:after{
+	content: ''
+	height: 0;
+	background: none;
+}
+.his_step:last-child .z_axis{
+	background-image: url(../images/about/axis_2.png);
+}
+.axis_cont{
+	width: 3.28rem;
+	padding-bottom: 0.2rem;
+	position: relative;
+}
+.axis_cont:after{
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 1px;
+	background-color: #000;
+	-webkit-transform: scaleY(0.3) ;
+	-moz-transform: scaleY(0.3) ;
+	-ms-transform: scaleY(0.3) ;
+	-o-transform: scaleY(0.3) ;
+	transform: scaleY(0.3) ;
+}
+.axis_cont h4{
+	font-size: 0.21rem;
+	line-height: 0.45rem;
+	color: #0066b3;
+	padding-left: 0.05rem;
+}
+.axis_cont img{
+	width: 1.285rem;
+	height: 0.9rem;
+}
+.axis_cont p{
+	width: 1.85rem;
+	font-size: 0.12rem;
+	line-height: 1.5;
+	color: #3f3f3f;
+}
+
+/* 品牌荣誉 */
+.honor_title{
+	font-size: 0.15rem;
+	line-height: 0.23rem;
+	color: #0066b3;
+	padding-bottom: 0.1rem;
+}
+.honorbox{
+	background-color: #dcdcdc;
+	margin-bottom: 0.16rem;
+	padding: 0.1rem;
+}
+.honorbox img{
+	width: 1.4rem;
+}
+.honorbox p{
+	width: 1.75rem;
+	font-size: 0.12rem;
+	color: #3f3f3f;
+	line-height: 1.5;
+}

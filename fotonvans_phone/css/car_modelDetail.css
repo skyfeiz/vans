@@ -1,0 +1,441 @@
+a.favorable {
+    width: 100%;
+    height: 0.5rem;
+    display: block;
+    text-align: center;
+    line-height: 0.5rem;
+    font-size: 0.24rem;
+    color: #FFFFFF;
+    background-color: #006ec3;
+    position: relative;
+}
+.fav_logo {
+    width: 0.14rem;
+    height: 0.23rem;
+    display: inline-block;
+    background: url(../images/car_model/xqjt.png) no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 0.14rem;
+    top: 0.125rem;
+}
+.main_part {
+  padding: 0
+}
+.ft_Entitle {
+    font-size: 0.28rem;
+    color: #0066b3;
+    font-family: "DIN";
+    text-align: center;
+    letter-spacing: -1px;
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+}
+.ft_Cntitle {
+    font-size: 0.24rem;
+    color: #000000;
+    font-weight: normal;
+    font-family: "微软雅黑";
+    margin-left: 0.05rem;
+    position: relative;
+    top: -0.02rem;
+}
+h1.ft_En {
+    font-size: 0.28rem;
+    color: #0066b3;
+    font-family: "DIN";
+    text-align: center;
+    margin-top: 0.3rem;
+    letter-spacing: -1px;
+}
+h2.ft_Cn {
+    text-align: center;
+    font-size: 0.24rem;
+    color: #000000;
+    font-weight: normal;
+    margin-bottom: 0.1rem;
+}
+
+/*
+
+.modeDetail_head {
+  border-bottom: 1px solid #c9c9c9;
+  border-top: 1px solid #c9c9c9;
+  width: 100%;
+  overflow: hidden;
+}
+.modeDetail_head ul {
+  width: 5.1rem;
+}
+.modeDetail_head ul li {
+  float: left;
+  width: 0.85rem;
+  height: 0.6rem;
+  line-height: 0.6rem;
+  text-align: center;
+  font-size: 0.15rem;
+  color: #404040;
+}
+.modeDetail_head .click_status {
+  color: #fff;
+  background-color: #00c9ff;
+}
+*/
+
+/*nav*/
+.car_slider {
+    position: fixed;
+    top: 0.45rem;
+    z-index: 9999;
+    width: 0.53rem;
+    /*height: 0.6rem;*/
+   background-color: rgba(25,25,25,.7);
+}
+.car_slider ul {
+}
+.car_slider ul li {
+    width: 0.53rem;
+    height: 0.6rem;
+    padding: 0 0.1rem;
+}
+.car_slider  div.left_nav_detail {
+    position: relative;
+    height: 0.6rem;
+    padding-top: 0.10rem;
+}
+.car_slider i.icon {
+    display: inline-block;
+    width: 100%;
+    height:0.19rem;
+}
+.car_slider p.line {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #8f8f8f;
+}
+.car_slider p.left_navWord {
+    width: 100%;
+    text-align: center;
+    font-size: 0.12rem;
+    color: #fff;
+}
+.car_slider i.icon1 {
+    background: url("../images/car_model/left_nav_01.png") no-repeat center center;
+    background-size: contain;
+}
+.car_slider i.icon2 {
+    background: url("../images/car_model/left_nav_02.png") no-repeat center center;
+    background-size: contain;
+}
+.car_slider i.icon3 {
+    background: url("../images/car_model/left_nav_03.png") no-repeat center center;
+    background-size: contain;
+}
+.car_slider i.icon4 {
+    background: url("../images/car_model/left_nav_04.png") no-repeat center center;
+    background-size: contain;
+}
+.car_slider i.icon5 {
+    background: url("../images/car_model/left_nav_05.png") no-repeat center center;
+    background-size: contain;
+}
+.left_nav_click p.left_navWord  {
+    color: #00c9ff;
+}
+.left_nav_click i.icon1 {
+    background-image: url("../images/car_model/left_nav_o1.png");
+}
+.left_nav_click i.icon2 {
+    background-image: url("../images/car_model/left_nav_o2.png");
+}
+.left_nav_click i.icon3 {
+    background-image: url("../images/car_model/left_nav_o3.png");
+}
+.left_nav_click i.icon4 {
+    background-image: url("../images/car_model/left_nav_o4.png");
+}
+.left_nav_click i.icon5 {
+    background-image: url("../images/car_model/left_nav_o5.png");
+}
+.main_part {
+    position: relative;
+    overflow: hidden;
+}
+div.car_sliderBox {
+  opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+
+
+
+/*velicles*/
+.main_part .car_velicles {
+    padding-bottom:0.2rem;
+    display: block;
+    position: relative;
+    opacity: 1;
+    z-index: 20;
+}
+p.velicles_name {
+  font-size: 0.18rem;
+  color: #000;
+  padding: 0.3rem 0 0.2rem;
+}
+p.velicles_details {
+  color: #404040;
+  font-size: 0.16rem;
+  line-height: 1.7;
+}
+.velicles_name strong {
+  font-size: 0.18rem;
+  color: #0066b3;
+  font-weight: normal;
+}
+.velicles_box {
+  width: 100%;
+}
+.velicles_box img {
+  width: 100%;
+}
+.velicles_con{
+  padding: 0 0.15rem;
+}
+/*Product highlights*/
+.main_part .ProducHighlights {
+    margin: 0 0.15rem 0.2rem;
+    overflow: hidden;
+}
+.productsDetail p.productTitle {
+  font-size: 0.18rem;
+  line-height: 1;
+  color: #404040;
+  padding-top: 0.2rem;
+  margin-bottom: 0.11rem;
+}
+.productsDetail img {
+  width: 100%;
+  display: block;
+}
+.productsDetail p.productCon {
+  font-size: 0.16rem;
+  color: #3d3d3d;
+  line-height: 1.6;
+  margin: 0 0 0.15rem;
+}
+/*video*/
+.main_part .car_video {
+    padding: 0 0.15rem 0.2rem;
+}
+.ft_Entitle{
+  font-size: 0.28rem;
+  color: #0066b3;
+  font-family: "DIN";
+  text-align: center;
+  letter-spacing: -1px;
+  margin-top: 0.3rem;
+}
+.ft_Cntitle{
+  font-size: 0.24rem;
+  color: #000000;
+  font-weight: normal;
+  font-family: "微软雅黑";
+  margin-left: 0.05rem;
+  position: relative;
+  top: -0.02rem;
+}
+.listcon{
+  margin-top: 0.35rem;
+}
+.lbbox li{
+  margin-bottom: 0.2rem;
+}
+.videobox{
+  /*width: 100%;*/
+  width: 100%;
+  height: 2.13rem;
+  position: relative;
+}
+.videosite{
+  width:100%;
+  height: 2.12rem;
+}
+.videopic{
+  width: 100%;
+    height: 100%;
+}
+img.videopic {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.videobf{
+  width: 0.35rem;
+  height: 0.35rem;
+  position: absolute;
+  top: 50%;
+    left: 50%;
+    margin-left: -0.175rem;
+    margin-top: -0.175rem;
+}
+.videotitle{
+  height: 0.4rem;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.videoyy{
+  width: 100%;
+  height: 100%;
+  /*background-color: #000000;*/
+  opacity: .7;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.videocon{
+  color: #fff;
+  position: absolute;
+  line-height: 0.4rem;
+  left: 0.19rem;
+  width: 88%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.loadmore{
+  width: 100%;
+  height: 0.4rem;
+  color: #fff;
+  background-color: #0066b3;
+  text-align: center;
+  line-height: 0.4rem;
+  font-size: 0.14rem;
+  margin-top: 0.2rem;
+  margin-bottom: 0.3rem;
+}
+
+/**decoration*/
+.car_decoration img {
+    width: 100%;
+    height:100%;
+}
+div.deco_img {
+    float: left;
+    width: 50%;
+    padding: 0 0.1rem 0.1rem;
+    height: 1.05rem;
+}
+div.deco_img img {
+    width: 100%;
+    height:100%;
+}
+.car_decoration .loadmore{
+  width: 3.45rem;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+/*config*/
+.slide_ul_box {
+    width: 100%;
+    border-right: 1px solid #a0a0a0;
+}
+p.car_notice_p {
+    font-size: 0.12rem;
+    line-height: 1.5;
+    color: #404040;
+}
+.car_noticePart {
+    width: 100%;
+    border: 1px solid #a0a0a0;
+    border-top: 0;
+    padding: 0.08rem 0.2rem;
+    line-height: 1.7;
+}
+.main_part .car_config {
+    padding: 0 0.15rem 0.3rem;
+}
+.car_config .table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    /*width: 100%;*/
+    width: calc(100% - 0.84rem);
+    border-right: 0;
+    margin-left: 0.84rem;
+}
+div.slide_ul {
+   /* width: 2000px;*/
+    position: relative;
+}
+.table tr td:last-child{
+  border-right: none;
+}
+tr.table_t {
+    height: 0.3rem;
+    background-color: #00c9ff;
+}
+
+tr.table_t td {
+    height: 0.3rem;
+    color: #fff;
+    font-size: 0.12rem;
+    padding: 0.05rem;
+    border-right: 1px solid #80e4ff;
+    border-top: 1px solid #80e4ff;
+    text-align: center;
+}
+tr.list  td {
+    text-align: center;
+    font-size: 0.12rem;
+    color: #404040;
+    border: 1px solid #a0a0a0;
+    padding: 0.1rem 0.05rem;
+    height: 0.65rem;
+}
+tr.table_first td {
+    font-size: 0.15rem;
+}
+.table_first td.td_f {
+    width: 0.6rem;
+}
+table.left_table {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0.85rem;
+}
+table.left_table td {
+    text-align: center;
+    color: #fff;
+    font-size: 0.12rem;
+    padding: 0.05rem;
+}
+tr.left_tableHead {
+    background-color: #00c9ff;
+}
+tr.left_tableHead td{
+    height: 0.3rem;
+    color: #fff;
+    font-size: 0.12rem;
+    padding: 0.05rem;
+    border-right: 1px solid #80e4ff;
+    border-top: 1px solid #80e4ff;
+    text-align: center;
+}
+tr.left_tr {
+    background-color: #fff;
+}
+tr.left_tr  td{
+    height: 0.65rem;
+    color: #404040;
+    border: 1px solid #a0a0a0;
+    padding: 0.1rem 0.05rem;
+}

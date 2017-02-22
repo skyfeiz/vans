@@ -1,0 +1,102 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"   content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <meta name="apple-touch-fullscreen" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="format-detection" content="telephone=no">
+        <link rel="stylesheet" href="css/common.css">
+        <link rel="stylesheet" href="css/purchase_dealer.css">
+        <script src="lib/jquery-1.11.2.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="http://api.map.baidu.com/api?v=2.0&ak=qucwKSrbi7Ghmy1WKZe3tl18vhsBmXGn" type="text/javascript" charset="utf-8"></script>
+        <script src="lib/simpScroller-min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="js/common.js" type="text/javascript" charset="utf-8"></script>
+        <script src="js/purchase_dealer.js" type="text/javascript" charset="utf-8"></script>
+        <title>福田商务汽车-经销商查询</title>
+        <script>
+            $(function(){
+                new foton.Common();
+                new foton.DealerAndService();
+            })
+        </script>
+    </head>
+    <body>
+    <!--header-->
+    <div class="hearder">
+
+    </div>
+    <!--header-->
+
+    <!--content-->
+    <h1 class="ft_Entitle">DEALER SEARCH</h1>
+    <h2 class="ft_Cntitle">经销商查询</h2>
+
+    <div class="main_part">
+        <div class="item company clearfix">
+            <p class="label">为您推荐附近的服务商<p>
+            <p class="color000">北京兴芳伟业汽车贸易有限公司</p>
+            <p>地址：北京市怀柔区怀丰公路铁路桥北</p>
+            <p>电话：<span class="colorblue">010-61642262</span></p>
+        </div>
+        <form id="getForm">
+            <div class="item clearfix">
+                <input class="business_type" type="hidden" name="type" value="1">
+
+                <div class="dropItem car_brand">
+                    <p class="dropDefault clearfix">
+                        <select>
+                            <option value ="-1">请选择品牌</option>
+                        </select>
+                    </p>
+                </div>
+            </div>
+            <div class="item clearfix">
+                <div class="dropItem provice">
+                    <p class="dropDefault clearfix">
+                        <select>
+                            <option selected  value ="-1">省份</option>
+                        </select>
+                    </p>
+                </div>
+                <div class="dropItem city">
+                    <p class="dropDefault clearfix">
+                        <select>
+                            <option selected  value ="-1">城市</option>
+                        </select>
+                    </p>
+                </div>
+                <!-- <div class="dropItem country">
+                    <p class="dropDefault clearfix">
+                        <select>
+                            <option selected  value ="-1">区/县</option>
+                        </select>
+                    </p>
+                    <input autocomplete="off" type="hidden" name="areaId" value="" autocomplete="off">
+                </div> -->
+                <div class="dropItem distributor">
+                    <p class="dropDefault clearfix">
+                        <select>
+                            <option value ="volvo">请选择经销商</option>
+                        </select>
+                    </p>
+                    <input autocomplete="off" type="hidden" name="areaId" value="" autocomplete="off">
+                </div>
+            </div>
+        </form>
+        
+        <!--地图-->
+        <div class="use_map" id="maps">
+
+        </div>
+    </div>
+
+    <!--footer-->
+    <div class="footer">
+
+    </div>
+    <!--footer-->
+    </body>
+    </html>

@@ -1,0 +1,37 @@
+.ft_Entitle{
+	font-size: 0.28rem;
+	color: #0066b3;
+	font-family: "DIN";
+	text-align: center;
+	margin-top: 0.28rem;
+	letter-spacing: -1px;
+}
+.ft_Cntitle{
+	text-align: center;
+	font-size: 0.24rem;
+	color: #000000;
+	font-weight: normal;
+	font-family: "微软雅黑";
+	margin-left: 0.1rem;
+	margin-bottom: 0.3rem;
+}
+.container{
+	margin-bottom: 0.1rem;
+}
+.tec_title{
+	font-size: 0.18rem;
+	color: #000;
+	font-weight: 600;
+	margin-bottom: 0.1rem;
+}
+.tec_con{
+	font-size: 0.16rem;
+	text-align: justify;
+	color: #3f3f3f;
+	line-height: 0.2rem;
+	margin-bottom: 0.1rem;
+}
+.techpic{
+	width: 100%;
+	margin-bottom: 0.1rem;
+}

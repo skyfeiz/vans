@@ -1,0 +1,52 @@
+.ft_Entitle{
+	font-size: 0.28rem;
+	color: #0066b3;
+	font-family: "DIN";
+	text-align: center;
+	letter-spacing: -1px;
+	margin-top: 0.3rem;
+}
+.ft_Cntitle{
+	font-size: 0.24rem;
+	color: #000000;
+	font-weight: normal;
+	font-family: "微软雅黑";
+	margin-left: 0.05rem;
+	position: relative;
+	top: -0.02rem;
+}
+.listcon{
+	margin-top: 0.2rem;
+	padding-bottom: 0.2rem;
+}
+.col-xs-12 p{
+	font-size: 0.16rem;
+	color: #404040;
+	line-height: 1.56;
+}
+.col-xs-12 p.blueCon{
+	color: #0066B3;
+}
+.blueTitle{
+	margin: 0.23rem auto 0.13rem;
+}
+.top_30{
+	margin-top: 0.15rem;
+}
+.walk_map{
+	width: 100%;
+	margin-top: 0.3rem;
+}
+.walk_ewm{
+	width: 50%;
+	float: left;
+}
+.pt01r{
+	padding-top: 0.1rem;
+}
+.pt02r{
+	padding-top: 0.2rem;
+}
+.interE a{
+	color:#3f3f3f;
+}
