@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>时间轴</title>
+	<link rel="stylesheet" href="css/timeline.css">
+	<script src="../libs/jquery-3.1.1.min.js"></script>
+	<!-- <script src="js/jquery-1.10.2.min.js"></script> -->
+	<script src="js/timeline.js"></script>
+	<script>
+		$(function(){
+			new WbstChart.TimeLine();
+		})
+	</script>
+</head>
+<body>
+	<section class="timeline" id="timeline">
+		<ul class="timebtns">
+			<li class="active" data-type="now">最近七天</li>
+			<li data-type="month">月</li>
+			<li data-type="year">年</li>
+		</ul>
+		<div class="axisleft" id="axisleft">&lt;</div>
+		<div class="axisright" id="axisright">&gt;</div>
+		<div class="timelimitbox">
+			<div class="timecontent">
+				<canvas class="canvastimeline"></canvas>
+				<div class="timeareabox" id="timeareabox">
+					<div class="startline" id="startline"></div>
+					<div class="endline" id="endline"></div>
+				</div>
+			</div>
+		</div>
+
+	</section>
+</body>
+</html>
